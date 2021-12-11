@@ -1,9 +1,9 @@
 {
   "songs": [
     {
+      "songid": 1,
       "type": "netease",
       "link": "",
-      "songid": 1,
       "title": "music_for_programming_62-our_grey_lives.mp3",
       "description": "10th Anniversary Special\n----------------------\n\nEpisodes 1 to 61 of Music For Programming (the first ten years of the series) were edited to equal lengths and played simultaneously. The resulting cacophony was passed multiple times through an array of analogue and virtual signal processing devices until the centre-of-gravity between antagonism and attractiveness was found.\n\nDuring the process, multiple layers of infrasonic modulation were introduced at varying timescales, from 0.001Hz to around 24Hz. Each modulation frequency being a 1.618 (golden ratio) factor of the slowest, most noticeable root modulation, which in this case is a 'spectral contrast' processor that gradually plunges the soundscape into a watery abyss every 110 seconds before slowly bobbing up to the surface again to gasp for air.",
       "author": "",
