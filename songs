@@ -1,23 +1,46 @@
 {
   "songs": [
     {
-      "songid": 1,
+      "songid": 62,
       "type": "netease",
       "link": "",
-      "title": "music_for_programming_62-our_grey_lives.mp3",
+      "title": "62-our_grey_lives.mp3",
       "description": "10th Anniversary Special\n----------------------\n\nEpisodes 1 to 61 of Music For Programming (the first ten years of the series) were edited to equal lengths and played simultaneously. The resulting cacophony was passed multiple times through an array of analogue and virtual signal processing devices until the centre-of-gravity between antagonism and attractiveness was found.\n\nDuring the process, multiple layers of infrasonic modulation were introduced at varying timescales, from 0.001Hz to around 24Hz. Each modulation frequency being a 1.618 (golden ratio) factor of the slowest, most noticeable root modulation, which in this case is a 'spectral contrast' processor that gradually plunges the soundscape into a watery abyss every 110 seconds before slowly bobbing up to the surface again to gasp for air.",
-      "author": "",
+      "author": "music_for_programming",
       "lrc": "",
       "url": "https://datashat.net/music_for_programming_62-our_grey_lives.mp3",
       "pic": "https://us.123rf.com/450wm/tvectoricons/tvectoricons1811/tvectoricons181105507/112233704-programmer-icon-trendy-flat-vector-programmer-icon-on-white-background-from-professions-collection-v.jpg?ver=6"
     },
     {
-      "songid": 2,
-      "title": "music_for_programming_1-datassette.mp3",
+      "songid": 1,
+      "link": "",
+      "title": "1-datassette.mp3",
       "description": "Frog Pocket - Plinty\nTor Lundvall - Crooked\nTim Hecker - 7000 Miles\nBelong - Late Night\nFrog Pocket - Sea Angel Lament\nWilliam Basinski - 92982.2\nPraveen - Cecilia's Fruit\nArpanet - Ionic Crystals\nTim Hecker - October\nNetherworld - Virgin Lands\nKGB Man - Nobody Here\nTim Hecker - Blood Rainbow\nDer Zyklus - Iris / Retinal Scanning\nBoards Of Canada - Kaini Industries",
-      "author": "",
+      "author": "music_for_programming",
       "lrc": "",
       "url": "https://datashat.net/music_for_programming_1-datassette.mp3",
+      "pic": "https://us.123rf.com/450wm/tvectoricons/tvectoricons1811/tvectoricons181105507/112233704-programmer-icon-trendy-flat-vector-programmer-icon-on-white-background-from-professions-collection-v.jpg?ver=6"
+    },
+    {
+      "songid": 2,
+      "type": "netease",
+      "link": "",
+      "title": "2-sunjammer.mp3",
+      "description": "Bruno Sanfilippo - Piano Textures II, II\nCliff Martinez - Wear your seatbelt\nMax Richter - Flowers for Yulia\nTim Hecker - Azure Azure\nTim Hecker - In the fog III\nChristoph de Babalon - High life Part 2\nMurcof - Reflejo\nJackson C Frank - Milk and honey\nInade - Quartered conclusion\nTim Hecker - Enima",
+      "author": "music_for_programming",
+      "lrc": "",
+      "url": "http://datashat.net/music_for_programming_2-sunjammer.mp3",
+      "pic": "https://us.123rf.com/450wm/tvectoricons/tvectoricons1811/tvectoricons181105507/112233704-programmer-icon-trendy-flat-vector-programmer-icon-on-white-background-from-professions-collection-v.jpg?ver=6"
+    },
+    {
+      "songid": 3,
+      "type": "netease",
+      "link": "",
+      "title": "3-datassette.mp3",
+      "description": "LFO - Goodnight Vienna\nPhilip Glass - SloMo People\nTor Lundvall - Leaves\nWilliam Basinski - 92982.3\nLe Revelateur - Bleu Nuit\nTim Hecker - Studio Suicide 2\nMiles Tilmann - Particle Song 1\nOneohtrix Point Never - Heart Of A Champion\nWhite Rainbow - 5:45 AM July 6th 2004\nRobert Ashley - Automatic Writing\nTim Hecker - Incurably Optimistic!\nChristopher D Lewis - Metamorphosis 3\nBoards Of Canada - Geometric Piss\nBelong - Beeside\nThe Caretaker - Memory 63\nA Silver Mt. Zion - 13 Angels Standing Guard 'Round The Side Of Your Bed\nBurial - Forgive\nMark Morgan - Industrial Junk\nArpanet - Variables\nJulian Bream - Galliard (Remix)",
+      "author": "music_for_programming",
+      "lrc": "",
+      "url": "http://datashat.net/music_for_programming_3-datassette.mp3",
       "pic": "https://us.123rf.com/450wm/tvectoricons/tvectoricons1811/tvectoricons181105507/112233704-programmer-icon-trendy-flat-vector-programmer-icon-on-white-background-from-professions-collection-v.jpg?ver=6"
     }
   ]
