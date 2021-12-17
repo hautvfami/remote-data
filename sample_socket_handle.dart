@@ -1,42 +1,43 @@
+/// hautv.fami
 main() {
   final _socket = Socket();
-  final eventHandlerA = (data) => print('A');
-  final eventHandlerB = (data) => print('B');
-  final eventHandlerC = (data) => print('C');
+  final _eventHandler0 = (data) => print('A');
+  final _eventHandler1 = (data) => print('B');
+  final _eventHandler2 = (data) => print('C');
 
-  _socket.on('event_a', eventHandlerA);
-  print(_socket._events);
-  _socket.on('event_a', eventHandlerB);
-  _socket.on('event_a', eventHandlerC);
-  print(_socket._events);
+  _socket.on('event_a', _eventHandler0);
+  print(_socket.events);
+  _socket.on('event_a', _eventHandler1);
+  _socket.on('event_a', _eventHandler2);
+  print(_socket.events);
 
   // Remove eventHandlerA
-  _socket.off('event_a', eventHandlerA);
-  print(_socket._events);
+  _socket.off('event_a', _eventHandler0);
+  print(_socket.events);
 
   // Remove all handlers
   _socket.off('event_a');
-  print(_socket._events);
+  print(_socket.events);
 }
 
 typedef dynamic EventHandler<T>(T data);
 
 class Socket {
-  final Map<String, List<EventHandler>> _events = {};
+  final Map<String, List<EventHandler>> events = {};
 
   void on(String event, EventHandler handler) {
-    _events.putIfAbsent(event, () => <EventHandler>[]);
-    _events[event]!.add(handler);
+    events.putIfAbsent(event, () => <EventHandler>[]);
+    events[event]!.add(handler);
   }
 
   void off(String event, [EventHandler? handler]) {
     if (handler != null) {
-      _events[event]?.remove(handler);
-      if (_events[event]?.isEmpty == true) {
-        _events.remove(event);
+      events[event]?.remove(handler);
+      if (events[event]?.isEmpty == true) {
+        events.remove(event);
       }
     } else {
-      _events.remove(event);
+      events.remove(event);
     }
   }
 }
